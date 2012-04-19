@@ -16,9 +16,35 @@ class AppKernel extends Kernel
             new Symfony\Bundle\AsseticBundle\AsseticBundle(),
             new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
+
+            //JMS
             new JMS\AopBundle\JMSAopBundle(),
             new JMS\DiExtraBundle\JMSDiExtraBundle($this),
             new JMS\SecurityExtraBundle\JMSSecurityExtraBundle(),
+            new JMS\TranslationBundle\JMSTranslationBundle(),
+
+            //Majisti
+            new Majisti\UtilsBundle\MajistiUtilsBundle(),
+
+            //FOS
+            new FOS\JsRoutingBundle\FOSJsRoutingBundle(),
+//            new FOS\UserBundle\FOSUserBundle(),
+
+            //Bazinga
+            new Bazinga\ExposeTranslationBundle\BazingaExposeTranslationBundle(),
+
+            //Knp
+            new Knp\Bundle\MenuBundle\KnpMenuBundle(),
+
+            //Doctrine
+            new Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle(),
+            new Doctrine\Bundle\MigrationsBundle\DoctrineMigrationsBundle(),
+
+            //Imagine
+            new Avalanche\Bundle\ImagineBundle\AvalancheImagineBundle(),
+
+            //Liip
+            new Liip\FunctionalTestBundle\LiipFunctionalTestBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

@@ -1,9 +1,19 @@
 {
-    "hash": "9f166bb300e1950423791597a6b42562",
+    "hash": "cdc71ac3e31e66409afc3bec41c13e33",
     "packages": [
         {
+            "package": "avalanche123/imagine-bundle",
+            "version": "dev-master",
+            "source-reference": "caf07d845f8df2b8ba91dec772a24373dddeef85"
+        },
+        {
             "package": "doctrine/common",
-            "version": "2.2.1"
+            "version": "2.2.0"
+        },
+        {
+            "package": "doctrine/data-fixtures",
+            "version": "dev-master",
+            "source-reference": "914ec0a85cba7101fdfb4aed09d00c6f625512ea"
         },
         {
             "package": "doctrine/dbal",
@@ -12,11 +22,41 @@
         {
             "package": "doctrine/doctrine-bundle",
             "version": "dev-master",
-            "source-reference": "90e39fb7ff5b4c13577602dab7e08c90067160b4"
+            "source-reference": "dd3d35dd28e864fb908a70f8b206d1209aa2c333"
+        },
+        {
+            "package": "doctrine/doctrine-fixtures-bundle",
+            "version": "dev-master",
+            "source-reference": "33b267d3068d6c2f8daa0b417285cf76e7f82fc4"
+        },
+        {
+            "package": "doctrine/doctrine-migrations-bundle",
+            "version": "dev-master",
+            "source-reference": "e670643b1011fb997a209d8564a1c493fda1f4c3"
+        },
+        {
+            "package": "doctrine/migrations",
+            "version": "dev-master",
+            "source-reference": "9e81984b0f126b0830d9ac6acc2d1da81aba2b94"
         },
         {
             "package": "doctrine/orm",
             "version": "2.2.0"
+        },
+        {
+            "package": "friendsofsymfony/jsrouting-bundle",
+            "version": "dev-master",
+            "source-reference": "526cf7d21c89afa361299a6a547259e8c13fff69"
+        },
+        {
+            "package": "friendsofsymfony/user-bundle",
+            "version": "dev-master",
+            "source-reference": "59caf8902291b42e86dc8b4ea1aa19e9f30afff8"
+        },
+        {
+            "package": "imagine/Imagine",
+            "version": "dev-master",
+            "source-reference": "v0.2.8"
         },
         {
             "package": "jms/aop-bundle",
@@ -39,37 +79,67 @@
             "version": "1.1.0"
         },
         {
+            "package": "jms/translation-bundle",
+            "version": "dev-master",
+            "source-reference": "3f65e8681d8544738ad3c9da82b29ed33221dd10"
+        },
+        {
+            "package": "knplabs/knp-menu",
+            "version": "dev-master",
+            "source-reference": "ad10e1ec8f493bb29e28c02284f38c5afd4bfa07"
+        },
+        {
+            "package": "knplabs/knp-menu-bundle",
+            "version": "dev-master",
+            "source-reference": "c20933d2b988a3bd0944a0fd9e00068c30f0d27f"
+        },
+        {
             "package": "kriswallsmith/assetic",
             "version": "dev-master",
-            "source-reference": "2634d29cc193981761e3daf28e1afc6358bb43b1"
+            "source-reference": "eb3b5eb732e5f172d5aa12dea0af36b7989c18b3"
+        },
+        {
+            "package": "liip/functional-test-bundle",
+            "version": "dev-master",
+            "source-reference": "857d2a52420033e2c81faaef4a56b4011ed6b3a2"
+        },
+        {
+            "package": "majisti/utils-bundle",
+            "version": "dev-master",
+            "source-reference": "d1a3dfb606f1f0dc2c82a1667bcc31de76673057"
         },
         {
             "package": "monolog/monolog",
             "version": "1.0.2"
         },
         {
+            "package": "nikic/php-parser",
+            "version": "dev-master",
+            "source-reference": "5b27fb40ce53d22bb649faf4c3425c8088881fa9"
+        },
+        {
             "package": "sensio/distribution-bundle",
             "version": "dev-master",
-            "source-reference": "12882a093af81f89ac13078904e81c308784e883"
+            "source-reference": "38be63ebb45cc1fbeaff3f2bdf6d0ed216305a24"
         },
         {
             "package": "sensio/framework-extra-bundle",
             "version": "dev-master",
-            "source-reference": "6e3cccb66d3577fdbd5b6935a5d6b8bed8d47768"
+            "source-reference": "94a9615c6e52a3d02ca7f44eee56f20e0c5c4622"
         },
         {
             "package": "sensio/generator-bundle",
             "version": "dev-master",
-            "source-reference": "43c5c95e42e451ac7250d6a863f0540c7f266e1d"
+            "source-reference": "06d07e0514d310be8d5630bfd93637136991c30c"
         },
         {
             "package": "swiftmailer/swiftmailer",
-            "version": "4.1.5"
+            "version": "4.1.6"
         },
         {
             "package": "symfony/assetic-bundle",
             "version": "dev-master",
-            "source-reference": "b9cff021abc3d9433a892fa9908d9856393c0d09"
+            "source-reference": "d370e914e86518e88aa00ab266796ee032b8262e"
         },
         {
             "package": "symfony/monolog-bundle",
@@ -89,18 +159,26 @@
         {
             "package": "symfony/symfony",
             "version": "dev-master",
-            "source-reference": "3d84153d687c285b1356683298531421ec108359",
+            "source-reference": "83a0edd24bcecf5155c71bd34aee55a0ee28c454",
             "alias": "2.1.9999999.9999999-dev"
         },
         {
             "package": "twig/extensions",
             "version": "dev-master",
-            "source-reference": "1dfff8e793f50f651c4f74f796c2c68a4aee3147"
+            "source-reference": "446d870272cd87a720e95242eade38a2acf56eaa"
         },
         {
             "package": "twig/twig",
-            "version": "1.6.2"
+            "version": "dev-master",
+            "source-reference": "037f86aa550737abf633e991f3606b9de5a69657",
+            "alias": "1.7.9999999.9999999-dev"
+        },
+        {
+            "package": "willdurand/expose-translation-bundle",
+            "version": "dev-master",
+            "source-reference": "6f8f52144c34fe8916aa40b5fc73e15eecbf4aa2"
         }
     ],
+    "packages-dev": null,
     "aliases": []
 }
